@@ -1,0 +1,157 @@
+.wrap_choice{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  
+}
+
+.text_lable{
+
+  font-weight: bold;
+  
+}
+
+.option_search{
+  padding: 5px;
+  height:5rem;
+  
+  justify-content: space-between!important;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  
+}
+
+.option_search:hover{
+  background-color:rgb(255, 255, 252)
+  
+}
+
+
+.custom_container{
+
+  width: 100%!important;
+  max-width: 90%;
+}
+
+
+.main_process:hover{
+  cursor:pointer;
+}
+
+.custom-body{
+  height: 80vh;
+
+  overflow-y: scroll;
+  
+  
+}
+.custom-body:hover{
+  
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.table_PageFirst{
+  background-color:#f8f9fa;
+}
+
+
+
+.bycodeMaterial:hover{
+  cursor:pointer;
+
+  opacity: 0.5;
+}
+
+.active{
+  background-color:rgb(224, 223, 223);
+}
+
+.bycodeMaterial:hover{
+
+  opacity: 1;
+
+  background-color: aliceblue;
+
+}
+
+#myChart{
+  width: 40vw;
+  height: 80vh!important;
+  
+}
+
+#myChart:hover{
+  
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px!important;
+}
+
+.fixbackbutton{
+
+  position: fixed;
+  top: 10px;
+  left: 5vw;
+
+  width:5rem;
+}
+
+
+.cursor-pointer{
+
+  cursor: pointer;
+}
+
+.color-header{
+  background-color:#f8f9fa
+}
+
+.sticky-top{
+
+  z-index:0;
+} 
+
+
+.registerButton{
+  min-width:5rem;
+}
+
+
+
+
+/*  */
+
+
+.wraproom{
+  display: flex;
+  align-items: center;
+}
+
+.roomrender {
+  font-weight: bold;
+  font-size: 1.2em;
+  min-width: 120px;
+  background-color: azure;
+  background-color: #f2f2f2;
+  
+  transition: background-color 0.3s ease-in-out;
+
+
+}
+.roomrender:hover {
+  background-color: #e2e2e2;
+}
+
+.roomrender:focus {
+  outline: none;
+  background-color: #d2d2d2;
+}
+
+.eachColor {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.systemdelay{
+
+  max-width:  51px !important; ;
+}

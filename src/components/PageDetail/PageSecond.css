@@ -1,0 +1,131 @@
+
+body {
+    background-color: #f9f9f9;
+  }
+  .containers {
+    /* max-width: 600px; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .room-containers {
+    width: calc(33.33% - 10px); 
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+
+    background-color: #f2f2f2; /* light gray color */
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    
+  }
+
+  .room-containers:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  
+
+
+
+  .room-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+
+   
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #007bff; /* blue color */
+    text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.1);
+    
+
+  }
+  .employee-list {
+    padding-left: 30px!important;
+    
+    
+  }
+  .employee-list-item {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 7rem;
+  }
+
+.employee-list-item:hover::before {
+  content: "Beacon Code: " attr(data-rssi);
+  position: absolute;
+  top: -50px;
+  right: -20%;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 900000000000;
+}
+
+
+
+  .humanoid-icon {
+   
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: #a7d4ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #171414;
+    text-transform: uppercase;
+    position: relative;
+    max-width: 4.5rem;
+  }
+  
+  .name {
+    display: block;
+    text-align: center;
+    font-size:0.5em;
+
+    font-size: 1rem;
+  max-width: 100%;
+  word-wrap: break-word;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  }
+
+  .wrapname{
+
+     
+     max-width:  100% !important;
+  }
+
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+ 
+
+  

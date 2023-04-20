@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/08.%20NAM_TEST/atomlite/static/css/main.1835e6a0.css",
+    "main.js": "/08.%20NAM_TEST/atomlite/static/js/main.2c1d9744.js",
+    "index.html": "/08.%20NAM_TEST/atomlite/index.html",
+    "main.1835e6a0.css.map": "/08.%20NAM_TEST/atomlite/static/css/main.1835e6a0.css.map",
+    "main.2c1d9744.js.map": "/08.%20NAM_TEST/atomlite/static/js/main.2c1d9744.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1835e6a0.css",
+    "static/js/main.2c1d9744.js"
+  ]
+}

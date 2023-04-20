@@ -1,0 +1,41 @@
+.my_flex_between{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+
+
+.my_shadow_hover:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.my_shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cursonPointer{
+
+    cursor:pointer;
+}
+
+.scrollY{
+
+    height:90vh;
+    overflow-y: scroll;
+  
+}
+
+
+/* Modal */
+
+/* 
+
+<div class="modal-dialog modal-xl">...</div>
+<div class="modal-dialog modal-lg">...</div>
+<div class="modal-dialog modal-sm">...</div>
+
+*/
+
+
